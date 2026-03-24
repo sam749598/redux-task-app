@@ -26,7 +26,7 @@ export const tasksApiSlice = apiSlice.injectEndpoints({
         toggleTaskStatus: builder.mutation({
             query: ({ id, completed }) => ({
                 url: `/tasks/${id}`,
-                method: 'PATCH',
+                method: 'PUT',
                 body: { completed },
             }),
             async onQueryStarted({ id, completed }, { dispatch, queryFulfilled }) {
