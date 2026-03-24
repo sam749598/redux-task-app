@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    {
+      "title": "wlking",
+      "completed": false,
+      "id": "J5VWTl03iEM"
+    },
+    {
+      "title": "breakfast",
+      "completed": false,
+      "id": "Ev2UftAaXwQ"
+    },
+    {
+      "title": "vbgfghfr",
+      "completed": false,
+      "id": "HUDVpeJA-CI"
+    },
+    {
+      "title": "hgtyhty",
+      "completed": false,
+      "id": "UDbKHo1JfCA"
+    },
+    {
+      "title": "vbngfn",
+      "completed": true,
+      "id": "fMPQINJWg4c"
+    },
+    {
+      "title": "ghngfnty",
+      "completed": true,
+      "id": "6wt7U42csBg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@example.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
